@@ -1,0 +1,30 @@
+.todo-form {
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-form__wrapper-input {
+  position: relative;
+  margin: 0;
+  width: 98%;
+}
+
+.todo-form__input {
+  padding: 20px;
+  display: block;
+  width: 98%;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.todo-form__label {
+  position: absolute;
+  left: 0;
+  top: -25px;
+  display: block;
+}
+
+.todo-form__button {
+  display: block;
+}

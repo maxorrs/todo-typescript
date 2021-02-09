@@ -1,0 +1,39 @@
+.todo-item {
+  padding: 20px 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.todo-item.todo-item__checkbox {
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.todo-item__checkbox:checked + .todo-item__input {
+  text-decoration: line-through;
+}
+
+.todo-item__input {
+  width: 800px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 22px;
+  line-height: 22px;
+  resize: none;
+  font-family: inherit;
+}
+
+.todo-item__input:read-only {
+  outline: none;
+}
+
+.todo-item__button {
+  display: block;
+  width: 90px;
+}

@@ -1,0 +1,11 @@
+.container {
+  margin: 0 auto;
+  width: 1080px;
+  min-height: 500px;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.page__title {
+  text-transform: uppercase;
+}
